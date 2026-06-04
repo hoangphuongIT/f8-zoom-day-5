@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Register</title>
+    </head>
+    <body id="form">
+        <div class="form-container">
+            <h1 style="text-align: center">Register</h1>
+            <form class="register" action="" autocomplete="off">
+                <div class="avatar">
+                    <label for="avatar"
+                        ><div class="avatar-input">Chọn ảnh</div></label
+                    >
+                    <input type="file" name="" id="avatar" accept="image/*" />
+                </div>
+
+                <div class="form-group">
+                    <label for="display-name"> Display Name </label>
+                    <input
+                        type="text"
+                        id="display-name"
+                        spellcheck="false"
+                        placeholder="Tên thật hoặc biệt danh"
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="required">Email</label>
+                    <input
+                        type="email"
+                        name=""
+                        id="email"
+                        spellcheck="false"
+                        placeholder="example@gamil.com"
+                        
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name=""
+                        spellcheck="false"
+                        placeholder="Số điện thoại của bạn"
+                        
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="required">Password</label>
+                    <input type="password" name="" id="password" />
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="" id="confirm-password" />
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="" />
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input
+                        type="text"
+                        id="address"
+                        name=""
+                        spellcheck="false"
+                        placeholder="Tỉnh/Thành phố"
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label>Communication Preferences</label>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" name="" />
+                            Subscribe to Newsletter
+                        </label>
+                        <label>
+                            <input type="checkbox" name="" /> Receive
+                            Promotional Emails
+                        </label>
+                        <label>
+                            <input type="checkbox" name="" /> Get Product
+                            Updates
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit">Đăng ký ngay</button>
+            </form>
+        </div>
+    </body>
+</html>
